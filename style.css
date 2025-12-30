@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: black;
+  color: #00ffcc;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  opacity: 0.8;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 25px;
+  background: transparent;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  cursor: pointer;
+}
+
+#glitchMsg {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: red;
+  opacity: 0;
+  font-size: 1.2rem;
+}
+
+/* Shake */
+.shake {
+  animation: shake 0.15s infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(0); }
+  25% { transform: translate(4px, -4px); }
+  50% { transform: translate(-4px, 4px); }
+  75% { transform: translate(4px, 4px); }
+  100% { transform: translate(-4px, -4px); }
+}
+
+/* Noise */
+.noise {
+  position: fixed;
+  inset: 0;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.05;
+  pointer-events: none;
+}
+
+/* Beast Jump Scare */
+#beast {
+  position: fixed;
+  inset: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#beast img {
+  width: 30%;
+  transform: scale(0.1);
+  filter: drop-shadow(0 0 50px red);
+  transition: transform 0.5s ease, filter 0.5s;
+}
+
+#beast.show {
+  opacity: 1;
+}
+
+#beast.show img {
+  transform: scale(3);
+  filter: drop-shadow(0 0 150px red);
+}
