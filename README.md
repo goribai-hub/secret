@@ -1,7 +1,14 @@
-<h1 align="center">🌀 Reality Glitch Website</h1>
+<h1 align="center">☠️ SECRET WEB DON'T OPEN</h1>
+<p align="center">
 
 <p align="center">
-  <b>A cinematic, chaotic, interactive web experience</b><br>
+  <a href="https://YOUR-LIVE-LINK-HERE" target="_blank">
+    <img src="https://img.shields.io/badge/DON'TOPEN-GLITCH-red?style=for-the-badge&logo=hackaday&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <b>A Dangerous site, chaotic, interactive web experience</b><br>
   <i>Reality looks stable… until you touch it.</i>
 </p>
 
