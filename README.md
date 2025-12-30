@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7TKsQ8v1R9y5yZCw/giphy.gif" width="400"/>
+  <img src="https://i.postimg.cc/nLGfYBdx/363920655-1933298493698853-7708311396978918834-n.gif" width="400"/>
 </p>
 
 ---
@@ -42,7 +42,7 @@ This website is designed to:
 ## 🖼️ Preview
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif" width="500"/>
+  <img src="https://i.postimg.cc/nLGfYBdx/363920655-1933298493698853-7708311396978918834-n.gif" width="500"/>
 </p>
 
 ---
